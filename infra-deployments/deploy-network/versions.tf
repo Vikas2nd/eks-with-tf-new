@@ -1,7 +1,7 @@
 terraform {
 
   backend "s3" {
-    bucket = "aws-terraform-demo"
+    bucket = "aws-terraform-demo-2025"
     key    = "dev/eks-with-tf/network.tfstate"
     region = "eu-north-1"
 
