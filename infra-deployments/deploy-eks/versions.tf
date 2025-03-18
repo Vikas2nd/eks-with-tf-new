@@ -5,7 +5,7 @@ terraform {
     key    = "dev/eks-with-tf/eks.tfstate"
     region = "eu-north-1"
 
-    dynamodb_table = "vpc-solution"
+  # dynamodb_table = "vpc-solution"
   }
 }
 
