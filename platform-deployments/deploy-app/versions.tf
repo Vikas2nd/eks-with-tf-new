@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 4.65"
+      version = ">= 5.22.0, != 5.24"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
@@ -18,6 +18,6 @@ terraform {
 
     region = "eu-north-1"
 
-    dynamodb_table = "vpc-solution"
+#   dynamodb_table = "vpc-solution"
   }
 }
